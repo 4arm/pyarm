@@ -1,0 +1,4 @@
+mosquitto_pub -h robot.thedilution.my -u "Easeham" -P "Muhdizham2003@" -t "sensors/loadcell/control" -m "2"
+
+
+mosquitto_sub -h robot.thedilution.my -u "Easeham" -P "Muhdizham2003@" -t "sensors/loadcell/data"
